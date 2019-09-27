@@ -118,7 +118,7 @@
         android:layout_width="0dp"
         android:layout_height="45dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/bg_btn_white"
+        android:background="@drawable/bg_btn_white_blue"
         android:fontFamily="@font/raleway"
         android:text="@string/signin_btn"
         android:textColor="@color/colorBlue"

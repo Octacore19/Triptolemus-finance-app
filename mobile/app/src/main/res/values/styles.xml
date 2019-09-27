@@ -15,7 +15,7 @@
 
     <style name="AppTheme.NoActionBar.Dashboard">
         <item name="colorPrimary">@android:color/white</item>
-        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/darker_gray</item>
     </style>
 
 </resources>

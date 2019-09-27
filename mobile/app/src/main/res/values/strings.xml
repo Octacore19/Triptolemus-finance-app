@@ -13,7 +13,6 @@
     <string name="signup_header">sign up</string>
     <string name="email_hint">jamesdoe@mail.com</string>
     <string name="password_hint">password</string>
-    <string name="email_hint">jamesdoe@mail.com</string>
     <string name="username_label">Username</string>
     <string name="confirm_password_label">Confirm Password</string>
     <string name="member_prompt">Already a member?</string>
@@ -36,4 +35,7 @@
     <string name="default_amount">N25,000</string>
     <string name="past_month">Past Month</string>
     <string name="past_year">Past Year</string>
+    <string name="manage_expenses_header">How have you spent your money so far?</string>
+    <string name="record_expenses">Record Your Expenses</string>
+    <string name="set_budget">Set Budget</string>
 </resources>

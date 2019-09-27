@@ -11,8 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".views.activities.DashboardActivity"
-            android:theme="@style/AppTheme.NoActionBar.Dashboard"/>
+        <activity
+            android:name=".views.activities.DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar.Dashboard" />
         <activity android:name=".views.activities.PasswordActivity" />
         <activity android:name=".views.activities.SignupActivity" />
         <activity android:name=".views.activities.SigninActivity" />
