@@ -1,7 +1,8 @@
-package com.chegsmania.triptotracker
+package com.chegsmania.triptotracker.views.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.chegsmania.triptotracker.R
 
 class SignupActivity : AppCompatActivity() {
 
