@@ -30,4 +30,10 @@
     <string name="forgot_password_summary">It is okay to forget your password because we are humans. Let\'s help you get back your login details.</string>
     <string name="forgot_password_header">Forgot Password</string>
     <string name="check_mail">Check your mail</string>
+    <string name="total_expenses">Total Expenses</string>
+    <string name="past_week">Past Week</string>
+    <string name="default_value">500</string>
+    <string name="default_amount">N25,000</string>
+    <string name="past_month">Past Month</string>
+    <string name="past_year">Past Year</string>
 </resources>
