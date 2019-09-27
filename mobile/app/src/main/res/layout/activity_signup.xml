@@ -192,7 +192,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/signupButton"
+        android:id="@+id/signupSubmitButton"
         android:layout_width="0dp"
         android:layout_height="@dimen/button_height"
         android:layout_marginTop="32dp"
@@ -211,9 +211,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="@+id/signupButton"
-        app:layout_constraintStart_toStartOf="@+id/signupButton"
-        app:layout_constraintTop_toBottomOf="@+id/signupButton">
+        app:layout_constraintEnd_toEndOf="@+id/signupSubmitButton"
+        app:layout_constraintStart_toStartOf="@+id/signupSubmitButton"
+        app:layout_constraintTop_toBottomOf="@+id/signupSubmitButton">
 
         <TextView
             android:id="@+id/textView11"
