@@ -29,4 +29,5 @@
     <string name="your_email_label">Enter your email</string>
     <string name="forgot_password_summary">It is okay to forget your password because we are humans. Let\'s help you get back your login details.</string>
     <string name="forgot_password_header">Forgot Password</string>
+    <string name="check_mail">Check your mail</string>
 </resources>
