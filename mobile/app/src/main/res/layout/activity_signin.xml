@@ -7,7 +7,7 @@
     tools:context=".SigninActivity">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+        android:id="@+id/signinToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
@@ -25,7 +25,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintTop_toBottomOf="@id/signinToolbar"
         app:srcCompat="@drawable/ic_arrow_left"
         tools:ignore="ContentDescription" />
 
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
         android:fontFamily="@font/raleway"
         android:text="@string/signin_header"
@@ -62,7 +62,8 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/raleway"
             android:text="@string/email_label"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/signinEmailEdittext"
@@ -97,7 +98,8 @@
             android:fontFamily="@font/raleway"
             android:labelFor="@id/signinPasswordEdittext"
             android:text="@string/password_label"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/signinPasswordEdittext"
@@ -115,7 +117,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/forgotPasswordText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -127,7 +129,7 @@
         app:layout_constraintTop_toBottomOf="@+id/signinPasswordLayout" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signinSubmitButton"
         android:layout_width="0dp"
         android:layout_height="@dimen/button_height"
         android:layout_marginTop="64dp"
@@ -136,18 +138,19 @@
         android:text="@string/signin_btn"
         android:textColor="@android:color/white"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="@+id/forgotPasswordText"
         app:layout_constraintStart_toStartOf="@+id/signinPasswordLayout"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/forgotPasswordText" />
 
     <LinearLayout
+        android:id="@+id/signupPrompt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button">
+        app:layout_constraintEnd_toEndOf="@+id/signinSubmitButton"
+        app:layout_constraintStart_toStartOf="@+id/signinSubmitButton"
+        app:layout_constraintTop_toBottomOf="@+id/signinSubmitButton">
 
         <TextView
             android:id="@+id/textView7"

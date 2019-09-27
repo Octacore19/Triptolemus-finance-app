@@ -14,4 +14,8 @@
     <string name="email_hint">jamesdoe@mail.com</string>
     <string name="password_hint">password</string>
     <string name="email_hint">jamesdoe@mail.com</string>
+    <string name="username_label">Username</string>
+    <string name="confirm_password_label">Confirm Password</string>
+    <string name="member_prompt">Already a member?</string>
+    <string name="username_hint">James</string>
 </resources>
