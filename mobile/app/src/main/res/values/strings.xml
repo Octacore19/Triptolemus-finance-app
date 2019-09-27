@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TriptoTracker</string>
+    <string name="summary_intro">A Whole New Way To Manage Your Spending</string>
+    <string name="first_summary_point">Know How You Spend</string>
+    <string name="second_summary_point">Manage Your FInances</string>
+    <string name="sign_up_btn">Sign Up For Free</string>
+    <string name="signin_btn">sign in</string>
 </resources>
