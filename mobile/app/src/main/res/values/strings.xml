@@ -54,4 +54,7 @@
     <string name="download_format">Download format:</string>
     <string name="download">Download</string>
     <string name="open_dropdown">Open Dropdown</string>
+    <string name="user">User</string>
+    <string name="profile">Profile</string>
+    <string name="log_out">Log Out</string>
 </resources>

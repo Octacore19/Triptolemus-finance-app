@@ -3,7 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.chegsmania.triptotracker">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
+        android:name=".utils.BaseApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher_icon"
         android:label="@string/app_name"
@@ -13,17 +16,17 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".views.activities.DashboardActivity"
-            android:theme="@style/AppTheme.NoActionBar.Dashboard"/>
-        <activity android:name=".views.activities.PasswordActivity" />
-        <activity android:name=".views.activities.SignupActivity" />
-        <activity android:name=".views.activities.SigninActivity" />
-        <activity android:name=".views.activities.LandingActivity">
+            android:theme="@style/AppTheme.NoActionBar.Dashboard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".views.activities.PasswordActivity" />
+        <activity android:name=".views.activities.SignupActivity" />
+        <activity android:name=".views.activities.SigninActivity" />
+        <activity android:name=".views.activities.LandingActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
